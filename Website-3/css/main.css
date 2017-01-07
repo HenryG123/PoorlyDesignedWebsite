@@ -1,0 +1,161 @@
+/* General Styles*/
+
+body {
+  background-color: #f4f4f4;
+  font: 16px/1.6 Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.wrap {
+  min-height: calc(100vh - 89px);
+}
+/* Header Styles */
+
+header {
+  background-color: #556b2f;
+  border-bottom: 3px solid #48240a;
+  padding-top: 30px;
+  min-height: 70px;
+  position: fixed;
+  width: 100%;
+}
+
+header .logo {
+  float: left;
+}
+
+header .logo h1 {
+  margin: 0;
+  color: #fff;
+}
+
+header .logo h1 span {
+  color: #48240a;
+}
+header .nav-bar {
+  float: right;
+}
+
+header li {
+  display: inline;
+  float: left;
+  padding: 0 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  color: #48240a;
+}
+
+/* Jumbotron */
+#jumbotron {
+  text-align: center;
+  height: 600px;
+  background: url("../img/mincraft-cave-1.jpg") no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#jumbotron h1 {
+  font-size: 55px;
+  margin-top: 300px;
+  margin-bottom: 10px;
+}
+
+#jumbotron p {
+  font-size: 20px;
+}
+
+/* About Styles */
+#about {
+  height: 500px;
+}
+#pgraph1 {
+  float: left;
+  width: 60%;
+  margin-top: 100px;
+  padding: 10px;
+}
+#pgraph2 {
+  float: right;
+  width: 30%;
+  margin-top: 100px;
+  background-color: #d3d3d3;
+  padding: 10px;
+}
+
+/* Services */
+#services {
+  height: 500px;
+  background-color: #556b2f;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  color: #fff;
+}
+/* Order Styles*/
+.orderForm {
+  height: 150px;
+  background-color: #f4f4f4;
+}
+.orderForm h1 {
+  padding: 20px;
+  float: left;
+}
+
+.form {
+  float: right;
+  margin-top: 50px;
+}
+
+.form input[type="text"] {
+  padding: 5px;
+  height: 20px;
+  width: 250px;
+}
+
+.submit {
+  height: 35px;
+  width: 100px;
+  background-color: #556b2f;
+  border: none;
+  color: #fff;
+}
+
+/* Contacts Styles*/
+#contacts {
+  height: 300px;
+  background-color:  #556b2f;
+  text-align: center;
+  color: #fff;
+}
+/* Footer Styles */
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #556b2f;
+  border-top: 3px solid #48240a;
+  padding: 20px;
+  color: #fff;
+}
